@@ -1,0 +1,6 @@
+Consegna 2 Agosto 2024 - Giuseppe Guida
+
+Creata una rete segmentata con 1 switch collegato ad altri 4 switch che uniscono vari endpoint. Routing gestito da da router con gateway 192.168.1.1/24 e 192.169.20.1/24.
+Macchine comunicanti tra loro a differenza del CISO, ognuna suddivisa con la sua VLAN (CISO, Magazzino, Server Sensitive, Server Forniture, Vendite) per configurazioini future.
+Ho reso il Server Sensitive accessibile solo dalla VLAN del CISO e il Server Forniture accessibile solo dal reparto Magazzino e Vendite.
+>>>>>>> Stashed changes
